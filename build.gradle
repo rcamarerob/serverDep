@@ -1,0 +1,15 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm' version '1.4.10'
+}
+
+group 'com.rcb.server'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation "com.rcb.dependency:libraryDep"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib"
+}
